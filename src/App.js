@@ -135,7 +135,7 @@ function App() {
     <div className="container col-sm-8 col-md-5">
       <nav className="navbar navbar-light bg-light">
         <div className="container-fluid shadow rounded">
-          <a className="navbar-brand" href="#">
+          <div>
             <img
               src={logo}
               alt=""
@@ -144,7 +144,7 @@ function App() {
               className="d-inline-block align-text-center"
             />
             Tonleiter Trainer
-          </a>
+          </div>
         </div>
       </nav>
 
