@@ -135,7 +135,7 @@ function App() {
     <div className="container col-sm-8 col-md-5">
       <nav className="navbar navbar-light bg-light">
         <div className="container-fluid shadow rounded">
-          <div>
+          <div className="h4 d-flex justify-content-center align-items-center">
             <img
               src={logo}
               alt=""
@@ -143,7 +143,12 @@ function App() {
               height="80"
               className="d-inline-block align-text-center"
             />
-            Tonleiter Trainer
+            <div className="d-flex align-items-end">
+              <div>Tonleiter Trainer</div>
+              <div className="ms-2 fw-light" style={{ fontSize: "x-small" }}>
+                by Wanja
+              </div>
+            </div>
           </div>
         </div>
       </nav>
