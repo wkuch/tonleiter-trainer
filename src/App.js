@@ -123,7 +123,7 @@ function App() {
         className={
           isExcluded
             ? "card shadow-sm rounded p-1 m-2 col-2 text-decoration-line-through bg-danger"
-            : "card shadow-sm rounded p-1 m-2 col-2"
+            : "card shadow-sm rounded p-1 m-2 col-2 bg-success"
         }
       >
         <div className="align-self-center">{tonleiter}</div>
